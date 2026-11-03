@@ -37,6 +37,11 @@ Open http://127.0.0.1:8765 in a browser. Use the Chinese/English buttons to swit
 - `index.html`: content in both languages; update corresponding `lang="zh-CN"` and `lang="en"` elements together.
 - `styles.css`: responsive layouts and visual styling.
 - `script.js`: language switching and shareable language URLs.
+- `assets/portrait.jpg`: the portrait provided by the site owner.
+
+## Theme / 模板
+
+The academic layout is adapted from [Minimal Light](https://github.com/yaoyao-liu/minimal-light), using its static HTML approach. The redesign uses a portrait sidebar, white background, blue headings, compact research interests, and publication rows. No Ruby/Jekyll setup or third-party font downloads are required. See `THIRD_PARTY_NOTICES.md` and `licenses/minimal-light-CC0.txt` for attribution and the upstream CC0 license. The portrait and personal content are not covered by that template license.
 
 Research descriptions and results are based on the supplied Chinese and English resumes. Chemical Engineering Journal acceptance and third authorship were confirmed by the author. AutoSearch is marked as submitted to AAAI; Mobiflow is marked as under review. Research headings follow the resume's descriptive titles; formal bibliographic titles, full author lists, DOI links, and project repositories should be added when provided. No publication or code links are invented.
 
